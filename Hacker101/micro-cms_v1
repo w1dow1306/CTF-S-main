@@ -1,0 +1,31 @@
+
+Note:
+	The flags are not in the squence however i wrote the actuall flag number in[]
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
+				                            {Microcms v1 href="https://ctf.hacker101.com/ctf"}
+1st flag:^FLAG^ca82103adfc329193eac16013f744ea6214a729756c6a6521ad96ce4faec526d$FLAG$[actually flag3]
+> I went to the markdown testing page changed the url of the image and redirected the onerro to alert but the flag was in the source.
+				                             {Flags and information not neccessarily get showed on the page.}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+2nd flag:^FLAG^24c5d515b491f86f0313da8ba626458dd18e652cf322b0ccc436ee3aae770fb7$FLAG$[actually falg0]
+> Look at the url there is a page/1,2, try every number and got /page/5 as forbidden i tried to ctrl+u but did not    work
+> Now i looked at the edit page and there also same indexing was used just i changed from /page/edit/1 to/page/edit/5
+  There was a flag
+  					                         {Always look at the urls closely}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+3rd flag:^FLAG^116180a8520f77afb3e40f204c260b61a09585d65075afe0d53cad3096b12ec5$FLAG$[actually falg2]
+> I tried to inject xss payloads on every edit page but did not work so now it was time to check fro hints
+> It said the input is not where i think actually i did not get it at first because i injected the xss on the title input but it got reflected as plain text but when i returned to the home page it was there.
+				                              {It was frustrating untill i clicked the go home link}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+4th flag:^FLAG^0856d45abca252036f7140a84200f9fa6c6340308f18a6a3e06b473572ce2d5f$FLAG$[actually flag1]
+>  Well i had no idea how to get the flag so it was bad but i looked at the hint and it said path injection
+>  I googled path injection and then tried to get /page/1 to /apge/1' but it did not work i thought a little and then i just had a thought to use this on the edit page so the flag was at /page/edit/1'
+				                               {Learning something new is great}
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>
+>It was fun doing the ctf however i did not find them in sequence but it was fun i learnt about path injection,
+>url affecting the whole webpage.
+>
+^!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
